@@ -8,10 +8,11 @@
 </head>
 <body>
     <h2 id="clock">00:00:00</h2>
-    <form id="login-form">
-        <input>
-        <h1></h1>
+    <form class="hidden" id="login-form">
+        <input name="input" required maxlength="15" type="text" placeholder="What is your name?">
+        <input name="button" type="submit" value="Log in">
     </form>
+    <h1 class="hidden" id="greeting"></h1>
     <script src="js/clock.js"></script>
     <script src="js/greetings.js"></script>
 </body>
